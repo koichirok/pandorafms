@@ -1,6 +1,6 @@
 #!/bin/bash
-CODEHOME=/root/code/pandorafms
-CODEHOME_ENT=/root/code/pandora_enterprise
+CODEHOME=/home/alex/code/pandora
+CODEHOME_ENT=/home/alex/code/pandora_enterprise
 PANDHOME_ENT=$CODEHOME_ENT
 RPMHOME=/usr/src/packages
 VERSION=$(grep 'my $pandora_version =' $CODEHOME/pandora_server/lib/PandoraFMS/Config.pm | awk '{print substr($4, 2, length($4) - 3)}')
